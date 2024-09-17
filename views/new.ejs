@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Blog Post</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+  </head>
+  <body>
+    <main>
+        <h1>Create a new blog post!</h1>  
+
+
+        <form action="/new" method="post">
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" value=""><br>
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" value=""><br>
+
+            <label for="blogtitle">Blog Title:</label><br>
+            <input type="text" id="blogtitle" name="blogtitle" value=""><br>
+
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="4" cols="50"></textarea><br>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
